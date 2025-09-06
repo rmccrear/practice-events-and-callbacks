@@ -9,12 +9,14 @@
 
 // Example 1:
 onEvent("bananaButton", "click", function() {
+    console.log("banana button clicked");
     setProperty("banana", "color", "yellow");
     setProperty("banana", "background-color", "black");
 });
 
 // Example 2:
 onEvent("button1", "click", function() {
+    console.log("button 1 clicked");
     setProperty("paragraph1", "color", "maroon");
     setProperty("paragraph1", "border-style", "solid");
     setProperty("paragraph1", "padding", "5px");

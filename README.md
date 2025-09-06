@@ -27,16 +27,15 @@ practice-events-and-callbacks/
    cd practice-events-and-callbacks
    ```
 
-2. **Open the project**: Double-click on `index.html` to open it in your web browser
-3. **Open the Developer Tools**: Press `F12` (or `Cmd + Option + I` on Mac) and click on the **Console** tab to see helpful messages from the helper functions
-4. **Start a local server** (optional but recommended): In your terminal, run:
+2. **Start a local server**: In your terminal, run:
    ```bash
    npx live-server
    ```
    This will automatically open your project in the browser and refresh when you make changes.
-5. **Open your code editor**: Open `script.js` in Cursor IDE
-6. **Turn off AI assistance**: Click the little person with a helmet icon in the bottom-right corner and uncheck "Code Completions" for JavaScript
-7. **Start coding**: Follow the instructions in `script.js` to complete the challenges
+3. **Open the Developer Tools**: Press `F12` (or `Cmd + Option + I` on Mac) and click on the **Console** tab to see helpful messages from the helper functions
+4. **Open your code editor**: Open `script.js` in Cursor IDE
+5. **Turn off AI assistance**: Click the little person with a helmet icon in the bottom-right corner and uncheck "Code Completions" for JavaScript
+6. **Start coding**: You goal is to make each button change the style of the paragraph above it. Be sure to use a `console.log("button clicked")` in your callback to test it.
 
 ## 🛠️ Helper Functions Guide
 
