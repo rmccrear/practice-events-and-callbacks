@@ -1,4 +1,4 @@
-// IMPORTANT: rememebr to turn of AI Code Assistant when yoy are practicing coding.
+// IMPORTANT: remember to turn of AI Code Assistant when yoy are practicing coding.
 // Click the little man with a helmet icon to the bottom right of the screen.
 // Then untick the "Code Completions" for JavaScript..
 
