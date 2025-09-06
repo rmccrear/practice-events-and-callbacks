@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice with Functions and Events</title>
+</head>
+<body>
+    <h1 id="banana">Practice with Functions and Events</h1>
+
+    <button id="bananaButton">Click me</button>
+
+    <p id="paragraph1">Learn to about functions and events!</p>
+
+    <button id="button1">Click me 1</button>
+
+    <p id="paragraph2">Every HTML Element can have an ID. But it must be unique on the page.</p>
+
+    <button id="button2">Click me 2</button>
+
+    <p id="paragraph3">JavaScript can "hook" into HTML elements and change their properties or behaviors. They need to know the ID of the element they want to hook into.</p>
+
+    <button id="button3">Click me 3</button>
+
+    <p id="paragraph4">In JavaScript, we can define functions that can be called later. The function definition is stored in memory, and the function can be called later by using the function name.</p>
+
+    <button id="button4">Click me 4</button>
+
+    <p id="paragraph5">That function can be called when the user clicks a button. We call this "attaching an event listener" to the element. We can use the helper functions in the helpers.js file to do this.</p>
+
+    <button id="button5">Click me 5</button>
+
+    <p id="paragraph6">Your challenge is onEvent to attach an event listener to each button and use setProperty to change the color of the text of the paragraph above it.</p>
+
+    <button id="button6">Click me 6</button>
+
+    <p>Example: change a CSS property of an element</p>
+    <pre>
+        setProperty("header1", "color", "red");
+        setProperty("header1", "border-style", "solid");
+        setProperty("header1", "border-width", "1px");
+        setProperty("header1", "border-color", "red");
+        setProperty("header1", "border-radius", "5px");
+        setProperty("header1", "padding", "10px");
+        setProperty("header1", "margin", "10px");
+        setProperty("header1", "font-size", "20px");
+    </pre>
+
+    <p>Example: change the CSS property of an element when the button is clicked</p>
+    <pre>
+        onEvent("button1", "click", function() {
+            setProperty("paragraph1", "color", "red");
+        });
+    </pre>
+
+    <p>Example: Change the text of an element</p>
+    <pre>
+        setProperty("header1", "textContent", "Hello World");
+    </pre>
+    
+    <script src="helpers.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
