@@ -149,10 +149,11 @@ You've mastered this lesson when you can:
 ## 🚀 Next Steps
 
 Once you've completed this practice:
-1. Try adding more interactive elements
-2. Experiment with different event types (`mouseover`, `mouseout`, `dblclick`)
-3. Create your own helper functions
-4. Build a small interactive game or tool
+1. **Add more buttons and paragraphs** - Create additional buttons and paragraphs with unique IDs to practice more event handling
+2. Try adding more interactive elements
+3. Experiment with different event types (`mouseover`, `mouseout`, `dblclick`)
+4. Create your own helper functions
+5. Build a small interactive game or tool
 
 ## 💡 Pro Tips
 
